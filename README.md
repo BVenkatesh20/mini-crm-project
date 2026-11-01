@@ -15,7 +15,7 @@ You need Node.js 18+ and a MongoDB database (local or MongoDB Atlas).
 ```bash
 cd backend
 npm install
-cp .env.example .env     # Windows: copy .env.example .env
+.env   
 ```
 
 Open `backend/.env` and set `MONGO_URI` and `JWT_SECRET`. Then:
@@ -30,7 +30,6 @@ npm run dev              # runs on http://localhost:5000
 ```bash
 cd frontend
 npm install
-cp .env.example .env     # Windows: copy .env.example .env
 npm run dev              # runs on http://localhost:5173
 ```
 
